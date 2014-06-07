@@ -9,7 +9,7 @@ The Docker container contains [RedPen][intro] server environment.
 
 ## Running
 
-Another example of running sixpack is:
+Another example of running redpen-server is:
 
     docker run -d -t --name redpen-server \
                 -p 49022:22 \
