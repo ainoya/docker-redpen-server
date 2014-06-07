@@ -2,6 +2,12 @@
 
 The Docker container contains [RedPen][intro] server environment.
 
+## Simple Usage
+
+If you only try redpen-server, you can use trusted builds registered [Docker index][di],
+
+    docker pull ainoya/redpen-server
+
 ## Deploying
 
 * Run `docker build -t redpen-server`
@@ -44,3 +50,4 @@ RedPen is a tool to help writers or programmers who write technical documents or
 [fk]: http://help.github.com/forking/
 [intro]: http://redpen.bigram.org/
 [repo]: https://github.com/recruit-tech/redpen
+[di]: https://index.docker.io/u/ainoya/redpen-server/
