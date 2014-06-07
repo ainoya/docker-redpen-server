@@ -18,8 +18,13 @@ If you only try redpen-server, you can use trusted builds registered [Docker ind
 Another example of running redpen-server is:
 
     docker run -d -t --name redpen-server \
+                -e REDPEN_HOME /redpen-server \
                 -p 49022:22 \
                 -p 8080:8080 redpen-server
+
+After a few minutes, you can access redpen-server:
+
+    open http://localhost:8080/redpen-server
 
 You can ssh to container as root, using password:`redpen`
 
