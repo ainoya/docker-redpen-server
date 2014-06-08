@@ -43,7 +43,6 @@ Once you've made your great commits:
 7. Create new pull request
 8. That's it!
 
-Or, you can create an [Issue][is].
 
 ## Resources
 
